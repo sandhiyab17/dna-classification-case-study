@@ -45,3 +45,23 @@ Genomic sequence classification is crucial for bioinformatics and viral diagnost
 ```bash
 git clone https://github.com/sandhiyab17/dna-classification.git
 cd dna-classification
+```
+## Install Dependencies
+pip install numpy pandas scikit-learn tensorflow Levenshtein
+python main.py
+
+## Results & Evaluation
+Models were evaluated using standard classification metrics across all datasets:
+
+Accuracy, Precision, Recall, and F1-Score
+
+## Key Findings
+
+3-Gram Feature Extraction: Showed the strongest overall performance on larger viral datasets.
+
+Levenshtein Distance: Produced the best accuracy on the COVID-19 dataset.
+
+CNNs & DNNs: Learned effectively directly from raw sequences without requiring manual feature engineering.
+
+📚 References
+Paper: Zhang, X. et al. (2020). Comparing Machine Learning Algorithms with or without Feature Extraction for DNA Classification. arXiv:2011.00485
