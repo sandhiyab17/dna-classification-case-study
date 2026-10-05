@@ -4,10 +4,10 @@ A machine learning project comparing algorithms (CNN, DNN, N-gram) with and with
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 Genomic sequence classification is crucial for bioinformatics and viral diagnostic applications. This project evaluates how traditional feature extraction techniques perform compared to deep neural networks learning directly from raw DNA sequences.
 
-### 🧪 Datasets Used
+###  Datasets Used
 - **COVID-19:** SARS-CoV-2 DNA/RNA sequences
 - **AIDS:** HIV Type 1 vs. Type 2 sequences
 - **Influenza:** Various flu strain sequences
@@ -15,7 +15,7 @@ Genomic sequence classification is crucial for bioinformatics and viral diagnost
 
 ---
 
-## 🧬 Feature Extraction & Models
+##  Feature Extraction & Models
 
 ### Feature Extraction
 - **3-Gram:** Generates overlapping triplets representing nucleotide patterns and amino acids.
@@ -28,7 +28,7 @@ Genomic sequence classification is crucial for bioinformatics and viral diagnost
 
 ---
 
-## 🛠️ Tech Stack & Requirements
+##  Tech Stack & Requirements
 
 - **Language:** Python 3.x
 - **Libraries:**
@@ -39,7 +39,7 @@ Genomic sequence classification is crucial for bioinformatics and viral diagnost
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -63,5 +63,5 @@ Levenshtein Distance: Produced the best accuracy on the COVID-19 dataset.
 
 CNNs & DNNs: Learned effectively directly from raw sequences without requiring manual feature engineering.
 
-📚 References
-Paper: Zhang, X. et al. (2020). Comparing Machine Learning Algorithms with or without Feature Extraction for DNA Classification. arXiv:2011.00485
+## Reference Paper: 
+Zhang, X. et al. (2020). Comparing Machine Learning Algorithms with or without Feature Extraction for DNA Classification. arXiv:2011.00485
